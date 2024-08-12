@@ -10,7 +10,7 @@ function App() {
     return (
         <div>
             <Greeting name="김광일 웹파트장"/>
-            <Greeting name="권채은 부파트장"/>
+            <Greeting name="권채은 웹부파트장"/>
         </div>
     );
 }
