@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript 예시</title>
+        <style>
+            .box{
+                width : 200px;
+                height : 200px;
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "box"></div>
+        <button onclick="changeColor('red')">색상변경(red)</button>
+        <button onclick="changeColor('blue')">색상변경(blue)</button>
+        <script>
+            function changeColor(color) {
+                var box = document.querySelector('.box');
+                box.style.backgroundColor = color;
+            }
+        </script>
+    </body>
+</html>
